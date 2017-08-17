@@ -6,4 +6,8 @@ export interface IResponse<T> {
 
 export interface IMetadata {
   count?: number;
+  page_total?: number;
+  total?: number;
+  limit?: number;
+  page?: number;
 }
