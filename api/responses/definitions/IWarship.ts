@@ -223,7 +223,10 @@ export interface IAntiAircraftSlot {
 }
 
 export enum ShipTypes {
-  Cruiser = "Cruiser"
+  Cruiser = "Cruiser",
+  Carrier = "AirCarrier",
+  Battleship = "Battleship",
+  Destroyer = "Destroyer"
 }
 
 export enum ModuleTypes {
