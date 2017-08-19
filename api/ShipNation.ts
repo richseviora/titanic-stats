@@ -1,12 +1,12 @@
 export enum ShipNation {
     Commonwealth = "Commonwealth",
     Italy = "Italy",
-    USA = "U.S.A.",
-    PanAsia = "Pan-Asia",
+    USA = "USA",
+    PanAsia = "PanAsia",
     France = "France",
-    USSR = "U.S.S.R.",
+    USSR = "USSR",
     Germany = "Germany",
-    UK = "U.K.",
+    UK = "UK",
     Japan = "Japan",
     Poland = "Poland"
 }
