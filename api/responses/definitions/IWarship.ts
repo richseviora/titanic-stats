@@ -230,10 +230,7 @@ export enum ShipTypes {
 }
 
 export enum ModuleTypes {
-  Engine = "Engine",
-  Hull = "Hull",
-  Artillery = "Artillery",
-  Torpedoes = "Torpedoes"
+
 }
 
 export interface IWarshipModuleTree {
