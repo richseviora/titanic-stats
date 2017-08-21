@@ -1,5 +1,5 @@
-import { URLGenerator, IURLGenerator } from "../api/URLGenerator";
-import { ShipNation } from "../api/ShipNation";
+import { URLGenerator, IURLGenerator } from "../src/api/URLGenerator";
+import { ShipNation } from "../src/api/ShipNation";
 
 describe("URLGenerator", () => {
   const applicationId = "133f74982efd62f7181de390d26e2e62";

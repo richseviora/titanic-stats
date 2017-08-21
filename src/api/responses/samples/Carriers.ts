@@ -1,5 +1,5 @@
-import { IResponse } from "../definitions/IResponse";
-import { IWarshipCollection } from "../definitions/IWarshipCollection";
+import { IResponse } from "../IResponse";
+import { IWarshipCollection } from "../IWarshipCollection";
 const carriers: IResponse<IWarshipCollection> = {
   status: "ok",
   meta: { count: 18, page_total: 1, total: 18, limit: 20, page: 1 },

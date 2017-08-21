@@ -1,4 +1,4 @@
-import {ModuleType} from "../../ModuleType";
+import {ModuleType} from "../ModuleType";
 import {ITorpedoBomberProfile} from "./moduleProfiles/ITorpedoBomberProfile";
 import {IFireControlProfile} from "./moduleProfiles/IFireControlProfile";
 import {ITorpedoProfile} from "./moduleProfiles/ITorpedoProfile";

@@ -1,6 +1,6 @@
-import { IResponse } from "../definitions/IResponse";
-import { IWarship} from "../definitions/IWarship";
-import {IWarshipCollection} from "../definitions/IWarshipCollection";
+import { IResponse } from "../IResponse";
+import { IWarship} from "../IWarship";
+import {IWarshipCollection} from "../IWarshipCollection";
 // URL from https://api.worldofwarships.com/wows/encyclopedia/ships/?application_id=133f74982efd62f7181de390d26e2e62
 const result: IResponse<IWarshipCollection> = {
   status: "ok",

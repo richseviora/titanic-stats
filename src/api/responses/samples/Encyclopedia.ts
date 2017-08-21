@@ -1,5 +1,5 @@
-import { IEncyclopedia } from "../definitions/IEncyclopedia";
-import { IResponse } from "../definitions/IResponse";
+import { IEncyclopedia } from "../IEncyclopedia";
+import { IResponse } from "../IResponse";
 
 // Result from URL: https://api.worldofwarships.com/wows/encyclopedia/info/?application_id=133f74982efd62f7181de390d26e2e62
 

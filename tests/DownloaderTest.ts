@@ -1,4 +1,4 @@
-import { Downloader, IDownloader } from "../api/Downloader";
+import { Downloader, IDownloader } from "../src/api/Downloader";
 
 describe("Downloader", () => {
   let downloader: IDownloader;
@@ -12,7 +12,7 @@ describe("Downloader", () => {
   describe("#downloadShips", () => {
     it("returns correct result", () => {
       let promise = downloader.downloadShips();
-      return expect(promise).resolves.toBeTruthy();
+      return expect(promise).resolves.toHaveLength(229);
     });
   });
 });

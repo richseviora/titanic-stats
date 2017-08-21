@@ -1,5 +1,5 @@
-import {IResponse} from "../definitions/IResponse";
-import {IModuleResponse} from "../definitions/IModuleResponse";
+import {IResponse} from "../IResponse";
+import {IModuleResponse} from "../IModuleResponse";
 
 // noinspection JSUnusedLocalSymbols
 const response: IResponse<IModuleResponse> = {

@@ -2,7 +2,7 @@ import {IClientRequest} from "./IClientRequest";
 import {SupportedLanguages} from "./SupportedLanguages";
 import {IPaginatedRequest} from "./IPaginatedRequest";
 import {ShipNation} from "../ShipNation";
-import {ShipTypes} from "../responses/definitions/ShipTypes";
+import {ShipTypes} from "../responses/ShipTypes";
 
 export interface IWarshipRequest extends IClientRequest, IPaginatedRequest {
     fields? : string | string[];
