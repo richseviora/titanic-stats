@@ -1,4 +1,4 @@
-import {SupportedLanguages} from "./SupportedLanguages";
+import {SupportedLanguages} from "../SupportedLanguages";
 
 /**
  * Base interface for all requests made to the Wargaming.net client.

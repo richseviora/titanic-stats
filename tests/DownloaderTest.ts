@@ -1,4 +1,4 @@
-import { Downloader, IDownloader } from "../src/api/Downloader";
+import { Downloader, IDownloader } from "../src/client/Downloader";
 
 describe("Downloader", () => {
   let downloader: IDownloader;

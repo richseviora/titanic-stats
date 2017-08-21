@@ -1,10 +1,11 @@
 import * as HTTP from "http";
 import { IURLGenerator, URLGenerator } from "./URLGenerator";
 import { Configuration } from "../../Configuration";
-import { IWarship } from "./responses/IWarship";
-import { IResponse } from "./responses/IResponse";
-import { IWarshipCollection } from "./responses/IWarshipCollection";
+import { IWarship } from "../api/responses/IWarship";
+import { IResponse } from "../api/responses/IResponse";
+import { IWarshipCollection } from "../api/responses/IWarshipCollection";
 import * as _ from "underscore";
+import {ServerRealm} from "../api/ServerRealm";
 
 export interface IDownloader {
     downloadShips(): Promise<IWarship[]>;
@@ -13,7 +14,7 @@ export interface IDownloader {
 }
 
 export class Downloader implements IDownloader {
-    private urlGenerator: IURLGenerator = new URLGenerator(Configuration.appId);
+    private urlGenerator: IURLGenerator = new URLGenerator(Configuration.appId, ServerRealm.NorthAmerica);
 
     public downloadShips(): Promise<IWarship[]> {
         return new Promise((resolve, reject) => {

@@ -1,11 +1,12 @@
-import { URLGenerator, IURLGenerator } from "../src/api/URLGenerator";
+import { URLGenerator, IURLGenerator } from "../src/client/URLGenerator";
 import { ShipNation } from "../src/api/ShipNation";
+import {ServerRealm} from "../src/api/ServerRealm";
 
 describe("URLGenerator", () => {
   const applicationId = "133f74982efd62f7181de390d26e2e62";
   let client: IURLGenerator;
   beforeEach(() => {
-    client = new URLGenerator(applicationId);
+    client = new URLGenerator(applicationId, ServerRealm.NorthAmerica);
   });
   describe("#warshipRequest", () => {
     it("generates basic URL correctly", () => {
