@@ -1,4 +1,4 @@
-import {ITorpedoSlot} from "./ITorpedoSlot";
+import { ITorpedoSlot } from "./ITorpedoSlot";
 
 export interface ITorpedoes {
     visibility_dist: number;

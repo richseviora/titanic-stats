@@ -1,4 +1,4 @@
-import {IPlane} from "./IPlane";
+import { IPlane } from "./IPlane";
 
 export interface IDiveBombers extends IPlane {
     dive_bomber_id: number;

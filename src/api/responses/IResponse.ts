@@ -1,13 +1,13 @@
 export interface IResponse<T> {
-  status: string;
-  meta: IMetadata;
-  data: T;
+    status: string;
+    meta: IMetadata;
+    data: T;
 }
 
 export interface IMetadata {
-  count?: number;
-  page_total?: number;
-  total?: number;
-  limit?: number;
-  page?: number;
+    count?: number;
+    page_total?: number;
+    total?: number;
+    limit?: number;
+    page?: number;
 }

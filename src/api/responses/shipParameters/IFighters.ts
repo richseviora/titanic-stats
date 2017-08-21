@@ -1,4 +1,4 @@
-import {IPlane} from "./IPlane";
+import { IPlane } from "./IPlane";
 
 export interface IFighters extends IPlane {
     fighters_id: number;

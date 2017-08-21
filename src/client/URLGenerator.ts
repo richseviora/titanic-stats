@@ -2,9 +2,11 @@ import { IWarshipRequest } from "../api/requests/IWarshipRequest";
 import { URL, URLSearchParams } from "url";
 import { ServerRealm } from "../api/ServerRealm";
 import { IClientRequest } from "../api/requests/IClientRequest";
+import { IModuleRequest } from "../api/requests/IModuleRequest";
 
 export interface IURLGenerator {
     warshipRequest(config?: Partial<IWarshipRequest>): URL;
+    moduleRequest(config: IModuleRequest): URL;
 }
 
 export class URLGenerator implements IURLGenerator {
@@ -16,8 +18,12 @@ export class URLGenerator implements IURLGenerator {
         this.realm = realm;
     }
 
-    public warshipRequest(config: Partial<IWarshipRequest>): URL {
-        return this.clientRequest("ships/", config);
+    public warshipRequest(config?: Partial<IWarshipRequest>): URL {
+        return this.clientRequest("ships/", config || {});
+    }
+
+    public moduleRequest(config: IModuleRequest): URL {
+        return this.clientRequest("modules/", config);
     }
 
     /**

@@ -5,7 +5,8 @@ import { IWarship } from "../api/responses/IWarship";
 import { IResponse } from "../api/responses/IResponse";
 import { IWarshipCollection } from "../api/responses/IWarshipCollection";
 import * as _ from "underscore";
-import {ServerRealm} from "../api/ServerRealm";
+import { ServerRealm } from "../api/ServerRealm";
+import { IncomingMessage } from "http";
 
 export interface IDownloader {
     downloadShips(): Promise<IWarship[]>;
@@ -20,7 +21,7 @@ export class Downloader implements IDownloader {
         return new Promise((resolve, reject) => {
             let result: IWarship[] = [];
             const initialPromise = this.downloadShipPage(1);
-            let promise = this.recursivePromise(result, 1, resolve, reject);
+            let promise = this.completedRequestHandler(result, 1, resolve, reject);
             initialPromise.then(promise);
         });
     }
@@ -37,7 +38,7 @@ export class Downloader implements IDownloader {
      * @param reject
      * @returns {(response: IResponse<IWarshipCollection>) => void}
      */
-    private recursivePromise(
+    private completedRequestHandler(
         result: IWarship[],
         pageNumber: number,
         resolve: any,
@@ -53,7 +54,7 @@ export class Downloader implements IDownloader {
                 let nextPageNumber = pageNumber + 1;
                 console.log(`Requesting Next Page: ${nextPageNumber}`);
                 const nextPagePromise = this.downloadShipPage(nextPageNumber);
-                const nextPageHandler = this.recursivePromise(result, nextPageNumber, resolve, reject);
+                const nextPageHandler = this.completedRequestHandler(result, nextPageNumber, resolve, reject);
                 nextPagePromise.then(nextPageHandler);
             }
         };
@@ -61,24 +62,23 @@ export class Downloader implements IDownloader {
 
     private downloadShipPage(pageNumber: number): Promise<IResponse<IWarshipCollection>> {
         return new Promise((resolve, reject) => {
-            HTTP.get(
-                this.urlGenerator.warshipRequest({
-                    limit: 100,
-                    page_no: pageNumber
-                }),
-                response => {
-                    const body: any[] = [];
-                    response.on("data", data => {
-                        body.push(data);
-                    });
-                    response.on("error", reject);
-                    response.on("end", () => {
-                        const result = body.join("");
-                        const resultObj = JSON.parse(result);
-                        resolve(resultObj);
-                    });
-                }
-            );
+            let responseCallback = (response: IncomingMessage) => {
+                const body: any[] = [];
+                response.on("data", data => {
+                    body.push(data);
+                });
+                response.on("error", reject);
+                response.on("end", () => {
+                    const result = body.join("");
+                    const resultObj = JSON.parse(result);
+                    resolve(resultObj);
+                });
+            };
+            let url = this.urlGenerator.warshipRequest({
+                limit: 100,
+                page_no: pageNumber
+            });
+            HTTP.get(url, responseCallback);
         });
     }
 }

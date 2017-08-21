@@ -1,4 +1,4 @@
-import {IPlane} from "./IPlane";
+import { IPlane } from "./IPlane";
 
 export interface ITorpedoBomber extends IPlane {
     torpedo_distance: number;

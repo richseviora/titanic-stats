@@ -1,5 +1,5 @@
-import {IArtilleryShell} from "./IArtilleryShell";
-import {IMainBatterySlot} from "./IMainBatterySlot";
+import { IArtilleryShell } from "./IArtilleryShell";
+import { IMainBatterySlot } from "./IMainBatterySlot";
 
 export interface IMainBattery {
     max_dispersion: number;

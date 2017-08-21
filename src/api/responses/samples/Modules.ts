@@ -1,5 +1,5 @@
-import {IResponse} from "../IResponse";
-import {IModuleResponse} from "../IModuleResponse";
+import { IResponse } from "../IResponse";
+import { IModuleResponse } from "../IModuleResponse";
 
 // noinspection JSUnusedLocalSymbols
 const response: IResponse<IModuleResponse> = {
@@ -19,8 +19,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Douglas BTD-1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
             tag: "PAUB904_CV10_TB_STOCK",
             module_id_str: "PAUB904",
             module_id: 3347001328,
@@ -30,8 +29,7 @@ const response: IResponse<IModuleResponse> = {
         "3349589840": {
             profile: { fire_control: { distance: 19.1, distance_increase: 0 } },
             name: "PCA n° 10 Mle 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PFUS901_C10_SUO_STOCK",
             module_id_str: "PFUS901",
             module_id: 3349589840,
@@ -48,8 +46,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type93",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PJUT901_D10_TORP_STOCK",
             module_id_str: "PJUT901",
             module_id: 3349556944,
@@ -59,8 +56,7 @@ const response: IResponse<IModuleResponse> = {
         "3339103696": {
             profile: { fire_control: { distance: 19.4, distance_increase: 0 } },
             name: "GFCS X mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PRUS911_SUO",
             module_id_str: "PRUS911",
             module_id: 3339103696,
@@ -77,8 +73,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "457 mm/45 Mk II",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PBUA902_ART_CONQUEROR",
             module_id_str: "PBUA902",
             module_id: 3349131216,
@@ -95,8 +90,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "406 mm/50 Mk7",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PAUA931_B10_ART_STOCK",
             module_id_str: "PAUA931",
             module_id: 3318722544,
@@ -106,8 +100,7 @@ const response: IResponse<IModuleResponse> = {
         "3349589712": {
             profile: { fire_control: { distance: 11.4, distance_increase: 0 } },
             name: "Type10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PJUS901_Suo",
             module_id_str: "PJUS901",
             module_id: 3349589712,
@@ -127,8 +120,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Grozovoi (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PRUH902_D10_HULL_STOCK_2",
             module_id_str: "PRUH902",
             module_id: 3348901328,
@@ -148,8 +140,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Test Ship",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PRUH990_TEST",
             module_id_str: "PRUH990",
             module_id: 3256626640,
@@ -165,8 +156,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type10 mod. 2",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PJUF902_FlightControl_2_A",
             module_id_str: "PJUF902",
             module_id: 3348967120,
@@ -183,8 +173,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mitsubishi A8M",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
             tag: "PJUI902_CV10_F_TOP",
             module_id_str: "PJUI902",
             module_id: 3348868816,
@@ -194,8 +183,7 @@ const response: IResponse<IModuleResponse> = {
         "3256266192": {
             profile: { fire_control: { distance: 12.8, distance_increase: 0 } },
             name: "Iamassist",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PRUS990_SUO_TEST",
             module_id_str: "PRUS990",
             module_id: 3256266192,
@@ -212,8 +200,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "152 mm/50 Mk XXVI",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PBUA901_C10_ART_STOCK",
             module_id_str: "PBUA901",
             module_id: 3350179792,
@@ -233,8 +220,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Khabarovsk (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PRUH901_KHABAROVSK_A",
             module_id_str: "PRUH901",
             module_id: 3349949904,
@@ -250,8 +236,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PJUF901_FlightControl_1",
             module_id_str: "PJUF901",
             module_id: 3350015696,
@@ -261,8 +246,7 @@ const response: IResponse<IModuleResponse> = {
         "3339562992": {
             profile: { engine: { max_speed: 33.0 } },
             name: "Propulsion: 212,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PAUE911_CV10_ENG_STOCK",
             module_id_str: "PAUE911",
             module_id: 3339562992,
@@ -282,8 +266,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Zao (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PJUH921_TENGU_1944",
             module_id_str: "PJUH921",
             module_id: 3328978640,
@@ -300,8 +283,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "53-50",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PRUT904_D10_TORP_TOP_2",
             module_id_str: "PRUT904",
             module_id: 3346410960,
@@ -311,8 +293,7 @@ const response: IResponse<IModuleResponse> = {
         "3348999984": {
             profile: { engine: { max_speed: 37.5 } },
             name: "Propulsion: 76,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PGUE902_D10_ENG_STOCK",
             module_id_str: "PGUE902",
             module_id: 3348999984,
@@ -330,8 +311,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Aichi B7A2",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
             tag: "PJUD901_CV10_DB_STOCK",
             module_id_str: "PJUD901",
             module_id: 3350081232,
@@ -348,8 +328,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mitsubishi A7M1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
             tag: "PJUI901_CV10_F_STOCK",
             module_id_str: "PJUI901",
             module_id: 3349917392,
@@ -359,8 +338,7 @@ const response: IResponse<IModuleResponse> = {
         "3329076944": {
             profile: { engine: { max_speed: 34.5 } },
             name: "Propulsion: 240,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PJUE921_CV10_ENG_STOCK",
             module_id_str: "PJUE921",
             module_id: 3329076944,
@@ -377,8 +355,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "53-49M",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PRUT903_D10_TORP_STOCK_2",
             module_id_str: "PRUT903",
             module_id: 3347459536,
@@ -398,8 +375,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Minotaur (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PBUH901_C10_HULL_A",
             module_id_str: "PBUH901",
             module_id: 3349950416,
@@ -409,8 +385,7 @@ const response: IResponse<IModuleResponse> = {
         "3350048208": {
             profile: { engine: { max_speed: 43.0 } },
             name: "Propulsion: 130,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PRUE901_D10_ENG_STOCK",
             module_id_str: "PRUE901",
             module_id: 3350048208,
@@ -426,8 +401,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type10 mod. 3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PJUF903_FlightControl_2_U",
             module_id_str: "PJUF903",
             module_id: 3347918544,
@@ -447,8 +421,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Z-52 (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PGUH902_D10_HULL_STOCK",
             module_id_str: "PGUH902",
             module_id: 3348901680,
@@ -465,8 +438,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "ET-46",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PRUT902_D10_TORP_TOP",
             module_id_str: "PRUT902",
             module_id: 3348508112,
@@ -486,8 +458,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Midway (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PAUH941_MIDWAY_1945",
             module_id_str: "PAUH941",
             module_id: 3308007408,
@@ -497,8 +468,7 @@ const response: IResponse<IModuleResponse> = {
         "3308105424": {
             profile: { engine: { max_speed: 39.0 } },
             name: "Propulsion: 75,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PJUE941_D10_ENG_STOCK",
             module_id_str: "PJUE941",
             module_id: 3308105424,
@@ -515,8 +485,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type F3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PJUT905_D10_TORP_TOP",
             module_id_str: "PJUT905",
             module_id: 3345362640,
@@ -536,8 +505,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Aichi B7A2",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
             tag: "PJUB901_CV10_TB_STOCK",
             module_id_str: "PJUB901",
             module_id: 3350146768,
@@ -554,8 +522,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type93 mod. 3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PJUT904_D10_TORP_MED",
             module_id_str: "PJUT904",
             module_id: 3346411216,
@@ -565,8 +532,7 @@ const response: IResponse<IModuleResponse> = {
         "3350048720": {
             profile: { engine: { max_speed: 33.5 } },
             name: "Propulsion: 110,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PBUE901_C10_ENG_STOCK",
             module_id_str: "PBUE901",
             module_id: 3350048720,
@@ -583,8 +549,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "130 mm/55 B-2-U",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PRUA911_D10_ART_STOCK",
             module_id_str: "PRUA911",
             module_id: 3339693520,
@@ -601,8 +566,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "128 mm L/45 Drh LC/41",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PGUA902_D10_ART_STOCK",
             module_id_str: "PGUA902",
             module_id: 3349131056,
@@ -612,8 +576,7 @@ const response: IResponse<IModuleResponse> = {
         "3339103952": {
             profile: { fire_control: { distance: 26.6, distance_increase: 0 } },
             name: "Type10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PJUS911_Suo",
             module_id_str: "PJUS911",
             module_id: 3339103952,
@@ -623,8 +586,7 @@ const response: IResponse<IModuleResponse> = {
         "3339562448": {
             profile: { engine: { max_speed: 34.5 } },
             name: "Propulsion: 210,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PRUE911_C10_ENG_STOCK",
             module_id_str: "PRUE911",
             module_id: 3339562448,
@@ -641,8 +603,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "G7 Wolfsbarsch",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PGUT902_D10_TORP_STOCK",
             module_id_str: "PGUT902",
             module_id: 3348508464,
@@ -652,8 +613,7 @@ const response: IResponse<IModuleResponse> = {
         "3328618192": {
             profile: { fire_control: { distance: 16.2, distance_increase: 0 } },
             name: "Type10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PJUS921_Suo",
             module_id_str: "PJUS921",
             module_id: 3328618192,
@@ -670,8 +630,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "533 mm Mk IXM",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PBUT901_C10_TORP_STOCK",
             module_id_str: "PBUT901",
             module_id: 3349557200,
@@ -681,8 +640,7 @@ const response: IResponse<IModuleResponse> = {
         "3339562800": {
             profile: { engine: { max_speed: 30.0 } },
             name: "Propulsion: 167,600 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PGUE911_B10_ENG_STOCK",
             module_id_str: "PGUE911",
             module_id: 3339562800,
@@ -702,8 +660,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Moskva (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PRUH911_MOSKVA_A",
             module_id_str: "PRUH911",
             module_id: 3339464144,
@@ -713,8 +670,7 @@ const response: IResponse<IModuleResponse> = {
         "3256724944": {
             profile: { engine: { max_speed: 80.0 } },
             name: "Nocknockneo",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PRUE990_ENG_TEST",
             module_id_str: "PRUE990",
             module_id: 3256724944,
@@ -731,8 +687,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Pewpew",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PRUA990_TEST",
             module_id_str: "PRUA990",
             module_id: 3256856016,
@@ -752,8 +707,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Nakajima C6N1-B",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
             tag: "PJUB902_CV10_TB_TOP",
             module_id_str: "PJUB902",
             module_id: 3349098192,
@@ -773,8 +727,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Hindenburg (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PGUH901_HINDENBURG_A",
             module_id_str: "PGUH901",
             module_id: 3349950256,
@@ -784,8 +737,7 @@ const response: IResponse<IModuleResponse> = {
         "3348541392": {
             profile: { fire_control: { distance: 24.3, distance_increase: 0 } },
             name: "Mk X mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PBUS902_SUO_CONQUEROR",
             module_id_str: "PBUS902",
             module_id: 3348541392,
@@ -795,8 +747,7 @@ const response: IResponse<IModuleResponse> = {
         "3350048560": {
             profile: { engine: { max_speed: 31.5 } },
             name: "Propulsion: 155,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PGUE901_C10_ENG_STOCK",
             module_id_str: "PGUE901",
             module_id: 3350048560,
@@ -813,8 +764,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Vought F4U-4",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
             tag: "PAUI901_CV10_F_STOCK",
             module_id_str: "PAUI901",
             module_id: 3349917680,
@@ -831,8 +781,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "G7 Steinwal",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PGUT903_D10_TORP_TOP",
             module_id_str: "PGUT903",
             module_id: 3347459888,
@@ -849,8 +798,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "203 mm L/60 Drh LC/34",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PGUA901_C10_ART_STOCK",
             module_id_str: "PGUA901",
             module_id: 3350179632,
@@ -860,8 +808,7 @@ const response: IResponse<IModuleResponse> = {
         "3318591184": {
             profile: { engine: { max_speed: 27.0 } },
             name: "Propulsion: 150,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PJUE931_B10_ENG_STOCK",
             module_id_str: "PJUE931",
             module_id: 3318591184,
@@ -878,8 +825,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "127 mm/50 Type3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PJUA931_D10_ART_STOCK",
             module_id_str: "PJUA931",
             module_id: 3318722256,
@@ -899,8 +845,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Gearing (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PAUH911_Gearing_1945",
             module_id_str: "PAUH911",
             module_id: 3339464688,
@@ -910,8 +855,7 @@ const response: IResponse<IModuleResponse> = {
         "3339104048": {
             profile: { fire_control: { distance: 20.6, distance_increase: 0 } },
             name: "FKS Typ 10 Mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PGUS911_SUO",
             module_id_str: "PGUS911",
             module_id: 3339104048,
@@ -931,8 +875,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Henri IV (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PFUH901_C10_HULL_A",
             module_id_str: "PFUH901",
             module_id: 3349950288,
@@ -952,8 +895,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Hakuryu (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PJUH931_Hakuryu_1942",
             module_id_str: "PJUH931",
             module_id: 3318492880,
@@ -963,8 +905,7 @@ const response: IResponse<IModuleResponse> = {
         "3347951600": {
             profile: { engine: { max_speed: 36.0 } },
             name: "Propulsion: 60,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PAUE903_D10_ENG_STOCK",
             module_id_str: "PAUE903",
             module_id: 3347951600,
@@ -984,8 +925,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Douglas XSB2D",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_torpedo.png",
             tag: "PAUB902_CV10_TB_TOP",
             module_id_str: "PAUB902",
             module_id: 3349098480,
@@ -1005,8 +945,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Großer Kurfürst (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PGUH911_GROSSDEUTSCHLAND_A",
             module_id_str: "PGUH911",
             module_id: 3339464496,
@@ -1016,8 +955,7 @@ const response: IResponse<IModuleResponse> = {
         "3349589456": {
             profile: { fire_control: { distance: 11.2, distance_increase: 0 } },
             name: "GFCS X mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PRUS901_Suo",
             module_id_str: "PRUS901",
             module_id: 3349589456,
@@ -1034,8 +972,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "457 mm/45 Mk II",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PBUA903_B10_ART_TOP",
             module_id_str: "PBUA903",
             module_id: 3348082640,
@@ -1052,8 +989,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "130 mm/58 SM-2-1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PRUA912_D10_ART_STOCK_2",
             module_id_str: "PRUA912",
             module_id: 3338644944,
@@ -1070,8 +1006,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Type F3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PJUT902_C10_TORP_STOCK",
             module_id_str: "PJUT902",
             module_id: 3348508368,
@@ -1087,8 +1022,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mk10 mod. 3",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PAUF913_FlightControl_2_F",
             module_id_str: "PAUF913",
             module_id: 3337433072,
@@ -1098,8 +1032,7 @@ const response: IResponse<IModuleResponse> = {
         "3349000176": {
             profile: { engine: { max_speed: 33.0 } },
             name: "Propulsion: 120,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PAUE902_C10_ENG_STOCK",
             module_id_str: "PAUE902",
             module_id: 3349000176,
@@ -1109,8 +1042,7 @@ const response: IResponse<IModuleResponse> = {
         "3318132720": {
             profile: { fire_control: { distance: 23.6, distance_increase: 0 } },
             name: "Mk10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PAUS931_Suo",
             module_id_str: "PAUS931",
             module_id: 3318132720,
@@ -1127,8 +1059,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "420 mm L/48 Drh LC/40",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PGUA913_B10_ART_TOP",
             module_id_str: "PGUA913",
             module_id: 3337596720,
@@ -1144,8 +1075,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mk10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PAUF911_FlightControl_1",
             module_id_str: "PAUF911",
             module_id: 3339530224,
@@ -1162,8 +1092,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "406 mm L/52 Drh C/34",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PGUA914_B10_ART_STOCK",
             module_id_str: "PGUA914",
             module_id: 3336548144,
@@ -1180,8 +1109,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "460 mm/45 Type94",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PJUA911_B10_ART_STOCK",
             module_id_str: "PJUA911",
             module_id: 3339693776,
@@ -1191,8 +1119,7 @@ const response: IResponse<IModuleResponse> = {
         "3348541232": {
             profile: { fire_control: { distance: 12.1, distance_increase: 0 } },
             name: "FKS Typ 10 Mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PGUS902_D10_SUO_STOCK",
             module_id_str: "PGUS902",
             module_id: 3348541232,
@@ -1202,8 +1129,7 @@ const response: IResponse<IModuleResponse> = {
         "3350048752": {
             profile: { engine: { max_speed: 30.0 } },
             name: "Propulsion: 172,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PAUE901_B10_ENG_STOCK",
             module_id_str: "PAUE901",
             module_id: 3350048752,
@@ -1213,8 +1139,7 @@ const response: IResponse<IModuleResponse> = {
         "3349000144": {
             profile: { engine: { max_speed: 29.5 } },
             name: "Propulsion: 135,650 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PBUE902_ENG_CONQUEROR",
             module_id_str: "PBUE902",
             module_id: 3349000144,
@@ -1231,8 +1156,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Plopplop",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PRUT990_TEST",
             module_id_str: "PRUT990",
             module_id: 3256233424,
@@ -1249,8 +1173,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Grumman F8F",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_fighter.png",
             tag: "PAUI903_CV10_F_TOP",
             module_id_str: "PAUI903",
             module_id: 3347820528,
@@ -1260,8 +1183,7 @@ const response: IResponse<IModuleResponse> = {
         "3339104240": {
             profile: { fire_control: { distance: 11.1, distance_increase: 0 } },
             name: "Mk10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PAUS911_Suo",
             module_id_str: "PAUS911",
             module_id: 3339104240,
@@ -1271,8 +1193,7 @@ const response: IResponse<IModuleResponse> = {
         "3349589808": {
             profile: { fire_control: { distance: 17.8, distance_increase: 0 } },
             name: "FKS Typ 10 Mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PGUS901_SUO",
             module_id_str: "PGUS901",
             module_id: 3349589808,
@@ -1292,8 +1213,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Des Moines (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PAUH901_Des_Moines_1948",
             module_id_str: "PAUH901",
             module_id: 3349950448,
@@ -1303,8 +1223,7 @@ const response: IResponse<IModuleResponse> = {
         "3339562704": {
             profile: { engine: { max_speed: 34.5 } },
             name: "Propulsion: 159,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PJUE911_C10_ENG_STOCK",
             module_id_str: "PJUE911",
             module_id: 3339562704,
@@ -1322,8 +1241,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Wakusei",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
             tag: "PJUD902_CV10_DB_TOP",
             module_id_str: "PJUD902",
             module_id: 3349032656,
@@ -1340,8 +1258,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mark 17",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PAUT901_D10_TORP_STOCK",
             module_id_str: "PAUT901",
             module_id: 3349557232,
@@ -1358,8 +1275,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "G7a T1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PGUT901_C10_TORP_STOCK",
             module_id_str: "PGUT901",
             module_id: 3349557040,
@@ -1369,8 +1285,7 @@ const response: IResponse<IModuleResponse> = {
         "3350048592": {
             profile: { engine: { max_speed: 35.0 } },
             name: "Propulsion: 220,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PFUE901_C10_ENG_STOCK",
             module_id_str: "PFUE901",
             module_id: 3350048592,
@@ -1390,8 +1305,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Conqueror (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PBUH902_CONQUEROR",
             module_id_str: "PBUH902",
             module_id: 3348901840,
@@ -1411,8 +1325,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Yamato (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PJUH911_Yamato_1944",
             module_id_str: "PJUH911",
             module_id: 3339464400,
@@ -1422,8 +1335,7 @@ const response: IResponse<IModuleResponse> = {
         "3348999632": {
             profile: { engine: { max_speed: 39.5 } },
             name: "Propulsion: 73,000 hp",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_engine.png",
             tag: "PRUE902_D10_ENG_STOCK_2",
             module_id_str: "PRUE902",
             module_id: 3348999632,
@@ -1441,8 +1353,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Douglas BTD-1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
             tag: "PAUD904_CV10_DB_STOCK",
             module_id_str: "PAUD904",
             module_id: 3346935792,
@@ -1459,8 +1370,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "127 mm/38 Mk38",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PAUA903_D10_ART_STOCK",
             module_id_str: "PAUA903",
             module_id: 3348082672,
@@ -1477,8 +1387,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "203 mm/50 Type18",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PJUA921_C10_ART_STOCK",
             module_id_str: "PJUA921",
             module_id: 3329208016,
@@ -1495,8 +1404,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "240 mm/55 Mle 1939",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PFUA901_C10_ART_STOCK",
             module_id_str: "PFUA901",
             module_id: 3350179664,
@@ -1506,8 +1414,7 @@ const response: IResponse<IModuleResponse> = {
         "3349589968": {
             profile: { fire_control: { distance: 15.8, distance_increase: 0 } },
             name: "Mk X mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PBUS901_C10_SUO_STOCK",
             module_id_str: "PBUS901",
             module_id: 3349589968,
@@ -1517,8 +1424,7 @@ const response: IResponse<IModuleResponse> = {
         "3349590000": {
             profile: { fire_control: { distance: 15.8, distance_increase: 0 } },
             name: "Mk10 mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PAUS901_Suo",
             module_id_str: "PAUS901",
             module_id: 3349590000,
@@ -1535,8 +1441,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "220 mm/65 SM-6",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_maingun.png",
             tag: "PRUA901_C10_ART_STOCK",
             module_id_str: "PRUA901",
             module_id: 3350179280,
@@ -1553,8 +1458,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "550 mm 23DT",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_torpedoes.png",
             tag: "PFUT901_C10_TORP_STOCK",
             module_id_str: "PFUT901",
             module_id: 3349557072,
@@ -1570,8 +1474,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Mk10 mod. 2",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_flightcontrol.png",
             tag: "PAUF912_FlightControl_2_A",
             module_id_str: "PAUF912",
             module_id: 3338481648,
@@ -1591,8 +1494,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Montana (A)",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_hull.png",
             tag: "PAUH931_Montana_1945",
             module_id_str: "PAUH931",
             module_id: 3318493168,
@@ -1610,8 +1512,7 @@ const response: IResponse<IModuleResponse> = {
                 }
             },
             name: "Kaiser XBTK-1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_avia_bomber.png",
             tag: "PAUD903_CV10_DB_TOP",
             module_id_str: "PAUD903",
             module_id: 3347984368,
@@ -1621,8 +1522,7 @@ const response: IResponse<IModuleResponse> = {
         "3338055120": {
             profile: { fire_control: { distance: 11.0, distance_increase: 0 } },
             name: "GFCS X mod. 1",
-            image:
-                "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
+            image: "http://glossary-na-static.gcdn.co/icons/wows/current/module/icon_module_radar.png",
             tag: "PRUS912_D10_SUO_STOCK_2",
             module_id_str: "PRUS912",
             module_id: 3338055120,

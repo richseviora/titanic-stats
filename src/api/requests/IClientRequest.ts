@@ -1,4 +1,4 @@
-import {SupportedLanguages} from "../SupportedLanguages";
+import { SupportedLanguages } from "../SupportedLanguages";
 
 /**
  * Base interface for all requests made to the Wargaming.net client.
@@ -6,7 +6,6 @@ import {SupportedLanguages} from "../SupportedLanguages";
 export interface IClientRequest {
     [key: string]: any;
     application_id: string;
-    fields?: string|string[];
+    fields?: string | string[];
     language?: SupportedLanguages;
 }
-

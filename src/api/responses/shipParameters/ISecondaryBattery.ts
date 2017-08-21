@@ -1,4 +1,4 @@
-import {ISecondaryBatterySlot} from "./ISecondaryBatterySlot";
+import { ISecondaryBatterySlot } from "./ISecondaryBatterySlot";
 
 export interface ISecondaryBattery {
     distance: number;

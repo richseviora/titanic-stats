@@ -1,4 +1,4 @@
-import {IWarshipArmorValues} from "../IWarshipArmorValues";
+import { IWarshipArmorValues } from "../IWarshipArmorValues";
 
 export interface IArmour {
     casemate: IWarshipArmorValues;

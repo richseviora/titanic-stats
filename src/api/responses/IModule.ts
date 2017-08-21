@@ -1,13 +1,13 @@
-import {ModuleType} from "../ModuleType";
-import {ITorpedoBomberProfile} from "./moduleProfiles/ITorpedoBomberProfile";
-import {IFireControlProfile} from "./moduleProfiles/IFireControlProfile";
-import {ITorpedoProfile} from "./moduleProfiles/ITorpedoProfile";
-import {IArtilleryProfile} from "./moduleProfiles/IArtilleryProfile";
-import {IHullProfile} from "./moduleProfiles/IHullProfile";
-import {IFlightControlProfile} from "./moduleProfiles/IFlightControlProfile";
-import {IFighterProfile} from "./moduleProfiles/IFighterProfile";
-import {IEngineProfile} from "./moduleProfiles/IEngineProfile";
-import {IDiveBomberProfile} from "./moduleProfiles/IDiveBomberProfile";
+import { ModuleType } from "../ModuleType";
+import { ITorpedoBomberProfile } from "./moduleProfiles/ITorpedoBomberProfile";
+import { IFireControlProfile } from "./moduleProfiles/IFireControlProfile";
+import { ITorpedoProfile } from "./moduleProfiles/ITorpedoProfile";
+import { IArtilleryProfile } from "./moduleProfiles/IArtilleryProfile";
+import { IHullProfile } from "./moduleProfiles/IHullProfile";
+import { IFlightControlProfile } from "./moduleProfiles/IFlightControlProfile";
+import { IFighterProfile } from "./moduleProfiles/IFighterProfile";
+import { IEngineProfile } from "./moduleProfiles/IEngineProfile";
+import { IDiveBomberProfile } from "./moduleProfiles/IDiveBomberProfile";
 
 export interface IModule {
     profile: IModuleProfile;
@@ -31,4 +31,3 @@ export interface IModuleProfile {
     engine?: IEngineProfile;
     dive_bomber?: IDiveBomberProfile;
 }
-

@@ -1,4 +1,4 @@
-import {IAntiAircraftSlot} from "./IAntiAircraftSlot";
+import { IAntiAircraftSlot } from "./IAntiAircraftSlot";
 
 export interface IAntiAircraft {
     slots: { [slotId: string]: IAntiAircraftSlot };

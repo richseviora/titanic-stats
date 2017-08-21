@@ -1,4 +1,4 @@
-import {IClientRequest} from "./IClientRequest";
+import { IClientRequest } from "./IClientRequest";
 
 export interface IShipParameters extends IClientRequest {
     ship_id: number;

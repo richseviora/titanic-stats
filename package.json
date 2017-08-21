@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prettify": "prettier --write --tab-width 4 --print-width 120 \"**/*.ts\""
   },
   "jest": {
     "transform": {
