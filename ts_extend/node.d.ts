@@ -1,3 +1,3 @@
 interface ObjectConstructor {
-    assign<T>(...obj: Partial<T>[]): T;
+  assign<T>(...obj: Partial<T>[]): T;
 }
